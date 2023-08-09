@@ -1,0 +1,19 @@
+1)Defina algoritmo.
+
+É uma sequência ordenada e finata de passos para a solução de um problema.
+
+2)Defina IDE e seus principais componentes. Exemplifique.
+
+IDE é um software que auxilia desenvolvedores a desenvolver seus programas, sites, ou seja um programa que é capaz de fazer outro programa.
+Principais componentes:
+* Área de edição de texto (código).
+* Compilador, responsável por transformar o código em linguagem de máquina (binário)
+* Debugger (depurador): É uma ferramenta que auxilia o desenvolvedor a executar o código de passo em passo, assim sendo possível indentificar erros e problemas no código.
+
+Uma IDE seria o Visual Studio, pois ele possui todos os componentes citados anteriormente e também alguns recursos a mais, como versionamento de código, suporte a framework.
+
+3) Qual a importância da definição do tipo de dado ao declarar uma variável?
+
+A definição do tipo de dado ao declarar uma variável é importante porque ajuda a garantir a correta alocação de memória e a evitar erros de programação. 
+Exemplo: Se uma variável é definida como um inteiro, não será possível armazenar um valor de ponto flutuante (números com casas decimais) nela sem fazer a conversão 
+adequada. Ela também não poderá guardar uma string.
