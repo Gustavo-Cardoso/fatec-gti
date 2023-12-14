@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    cursor: default;
+}
+
+table thead tr {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+}
+
+table tbody td, table tbody th { padding: 10px};
+
+table tbody td { border-bottom: 1px solid #ddd }
+
+table tbody tr:hover {
+    background-color: yellow; /*cursor: crosshair;*/
+}
+
+.zebra { background: #eee}
+
+.quadradoAzul {
+    border: 400px solid rgb(255, 255, 255);
+    margin: 50px 50px 50px 50px;
+    padding: 400px 150px 400px 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+.quadradoVermelho {
+    border: 300px solid rgb(255, 0, 0);
+    margin: 50px 50px 50px 50px;
+    border-radius: 50%;
+}
+
+div {
+    /* border: 400px solid rgb(64, 0, 255);
+    padding: 0;
+    margin: 50px 50px 50px 50px; 
+    background-color:  rgb(64, 0, 255);; */
+    margin-top: 15%;
+}
+
+body{background-color: black;}

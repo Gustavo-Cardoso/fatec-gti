@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+/* .quadradoAzul {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 50px 0px 0px 50px;
+}
+
+.quadradoVermelho {
+    background-color: red;
+    width: 100px; 
+    height: 100px;
+} */
+
+.quadradoBranco {
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 100px 0px 0px 300px;
+}
+
+.circuloVermelho {
+    background-color: red;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

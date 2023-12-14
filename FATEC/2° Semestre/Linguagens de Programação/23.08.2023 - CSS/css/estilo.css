@@ -1,0 +1,49 @@
+/*Primeiro CSS*/
+
+/* Treocando a cor do fundo da página*/
+body {
+    background-color: rgb(34, 255, 0);
+}
+
+/* Treocando a cor do fundo da tag span*/
+span {
+    background-color: #ff0000;
+}
+
+a {
+    text-decoration: none;
+    color: rebeccapurple; /* Remove o underline */
+    font-weight: bold; /* Deixa em Negrito */
+    text-shadow: 1px 1px 1px #000; /* Sombra no texto */
+}
+
+/* Formatação de quando passar o cursor sobre o "link"*/
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: dottedv;
+    cursor: crosshair;
+}
+
+/* Formatação enquanto o link está com o botão do mouse apertado */
+a:active {
+    color: darkred;
+    font-style: italic;
+}
+
+h1 {
+    text-transform: uppercase; /* Convertendo o texto para maiúsculo */
+    letter-spacing: 10px; /* Espaçamento entre as letras */
+    color: white;
+    background-color: magenta;
+    border-bottom: 5px dashed darkmagenta; /* Border inferior */
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 28px; /* Tamanho da fonte */
+}
+
+p {
+    color: #eaff00;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    text-shadow: 2px 2px 2px rgb(255, 187, 0);
+    background-color: #0400ff;
+    text-align: center;
+}

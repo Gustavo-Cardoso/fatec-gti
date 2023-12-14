@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Cota</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
+
+<body class="h-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <a href="criarConta.html"><button class="btn btn-primary " type="submit">Criar Conta</button></a>
+                <a href="#"><button class="btn btn-success " type="submit">Entrar</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center">
+        <p>Bem-vindo a página de criação de conta!</p>
+    </h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group col-4">
+                    <label for="perfil">Perfil:</label>
+                    <select name="perfil" id="perfil" class="form-control">
+                        <option value="0">Selecione...</option>
+                        <option value="1">Aluno</option>
+                        <option value="2">Professor</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="formulario" class="container ocultar">
+        <div class="row">
+            <div class="col-12">
+                <form action="index.html">
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="nomeAluno">Nome:</label>
+                            <input id="nomeAluno" class="form-control" type="text"
+                                placeholder="Digite o nome completo aqui">
+                        </div>
+                        <div class="form-group col-md-5">
+                            <div>
+                                <label for="emailAluno">E-mail:</label>
+                                <input id="emailAluno" class="form-control" type="email"
+                                    placeholder="exemplo@email.com.br">
+                            </div>
+                        </div>
+                        <div class="form-group col-2">
+                            <label for="data-nascimento">Data Nascimento:</label>
+                            <input id="data-nascimento" class="form-control" type="date" />
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="cursoAluno">Curso:</label>
+                            <select name="cursoAluno" id="cursoAluno" class="form-control">
+                                <option value="0">Selecione...</option>
+                                <option value="1">Administração</option>
+                                <option value="2">Produção Industrial</option>
+                                <option value="3">Construção Naval</option>
+                                <option value="4">Gestão da Tecnologia da Informação</option>
+                                <option value="4">Logística</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-2">
+                            <label for="turnoAluno">Turno:</label>
+                            <select name="turnoAluno" id="turnoAluno" class="form-control">
+                                <option value="0">Selecione...</option>
+                                <option value="1">Manhã</option>
+                                <option value="2">Tarde</option>
+                                <option value="3">Noite</option>
+                            </select>
+                        </div>
+                        <div id="div_ra" class="form-group col-3">
+                            <label for="ra">RA:</label>
+                            <input id="ra" class="form-control" type="number" />
+                        </div>
+                        <div id="div_cip" class="form-group col-3">
+                            <label for="cip">Carteira de Identidade Profisisonal:</label>
+                            <input id="cip" class="form-control" type="number" />
+                        </div>
+                        <div class="form-group col-3">
+                            <label for="cpf">CPF:</label>
+                            <input id="cpf" class="form-control cpf" type="text" placeholder="000.000.000-00" />
+                        </div>
+                        <div class="form-group col-2">
+                            <label for="cepAluno">CEP:</label>
+                            <input id="cepAluno" min="0" class="form-control cep" type="text" placeholder="00000-000" />
+                        </div>
+                        <div class="form-group col-7">
+                            <label for="enderecoAluno">Endereço:</label>
+                            <input id="enderecoAluno" class="form-control" type="text" />
+                        </div>
+                        <div class="form-group col-3">
+                            <label for="numeroAluno">Número:</label>
+                            <input id="numeroAluno" min="0" class="form-control" type="text" />
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="bairro">Bairro:</label>
+                            <input id="bairro" class="form-control" type="text" />
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="uf">Estado:</label>
+                            <select name="uf" id="" class="form-control">
+                                <option value="selecione">Selecione...</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PR">Paraguai</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="cidade">Cidade:</label>
+                            <select name="cidade" id="" class="form-control">
+                                <option value="selecione">Selecione...</option>
+                                <option value="1">Barra Bonita</option>
+                                <option value="2">Igaraçu do TIetê</option>
+                                <option value="3">Jaú</option>
+                            </select>
+                        </div>
+                    </div> <!--fecha form-row -->
+                    <div class="form-row">
+                        <button class="btn btn-success mr-3" type="submit">Salvar</button>
+                        <a href="#" class="btn btn-danger mr-3">Excluir</a>
+                        <a href="index.html" class="btn">Voltar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mask.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/criarConta.js"></script>
+
+</body>
+
+</html>
